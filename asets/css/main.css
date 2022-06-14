@@ -94,46 +94,69 @@
 /*use*/
 .use_all{
     display: flex;
-    flex: 1;
+    justify-content: space-around;
+}
+.about_use{
+    padding: 0 16px;
+    margin-top: 16px;
 }
 .about_use h3{
+    font-size: 2.5em;
+    color: rgb(164, 212, 41);
+    margin-bottom: 16px;
+}
+.about_use p{
     font-size: 1.5em;
+    text-align: left;
+    font-weight: bold; 
+    text-align: justify; 
 }
 .maintitle{
     text-align: center;
     color: black;
-    font-size: 1.6em;
+    font-size: 3.0em;
+    text-transform: uppercase;
+    margin-top: 36px;
 }
 .maintitle_p{
     text-align: center;
-    text-transform: inherit;
-    
+    font-size: 1.6em;
+    font-style: italic;
 }
 
+/*box*/
+.box_all{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
 .box__H,.box__M,.box__V{
     flex-basis: 30%;
     text-align: center;
+    border-radius: 10px;
     
 }
 .box__H{
-    background-color: beige; 
+    background-image:linear-gradient(0,rgb(209, 170, 142),rgb(164, 99, 52)) ; 
 }
 .box__M{
-    background-color: rgb(160, 10, 117);
+    background-image:linear-gradient(0,rgb(224, 113, 193),rgb(166, 67, 138)) ;
 }
 .box__V{
-    background-color: rgb(139, 209, 164);
+    background-image:linear-gradient(0,rgb(89, 243, 143),rgb(69, 159, 100)) ;
 }
 .box--title{
     text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5em;
 }
 .box--ditail{
     color: black;
+    font-size: 1.5em;
+    
 }
 /*
-#box{
 
-}
 #feedback{
 
 }
