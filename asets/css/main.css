@@ -91,7 +91,24 @@
 .nav_title:hover .nav_subnav{
     display:block;
 }
-
+/*use*/
+.use_all{
+    display: flex;
+    flex: 1;
+}
+.about_use h3{
+    font-size: 1.5em;
+}
+.maintitle{
+    text-align: center;
+    color: black;
+    font-size: 1.6em;
+}
+.maintitle_p{
+    text-align: center;
+    text-transform: inherit;
+    
+}
 
 .box__H,.box__M,.box__V{
     flex-basis: 30%;
@@ -114,10 +131,6 @@
     color: black;
 }
 /*
-
-#used{
-
-}
 #box{
 
 }
@@ -127,35 +140,6 @@
 #footer{
 
 }
-
-
-#header{
-    height: 400px;
-    background-image: url(http://pyramid.com.vn/wp-content/uploads/2019/11/phong-thuy-cay-canh-trong-nha-3-1024x576.jpg);
-    text-align:center;
-    padding-top: 100px;
-    
-} 
-
-
-h1 { 
-    color:plum;
-    font-size:3em!important;
-}
-p::selection {
-    color: rgb(231, 40, 222);
-}
-li {
-    color: rgb(248, 142, 71) ;
-}
-#hoa-1 {
-    color:red;
-}
-#hoa-2 {
-    color:purple;
-}
-*/
-
 
 /*css aliy*/
 /*
